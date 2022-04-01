@@ -1,0 +1,31 @@
+@import url('banner.css');
+@import url('buttons.css'); 
+@import url('cards.css');
+@import url('slide.css');
+@import url('footer.css');
+@import url('conteneur1.css');
+@import url('banner-three.css');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:ital,wght@1,100&display=swap');
+
+
+body{
+	margin:0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.space{
+	margin-top: 16px;
+	justify-content: center;
+}
+
+h5{ 
+	font-family:caveat;
+ }

@@ -1,0 +1,52 @@
+.banner{
+height: 100vh;
+background-image: url("../images/lione.jpg");
+background-size: cover;
+background-size: bottom;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.banner h1, .banner h2{
+	text-shadow: 1px 1px 1px black;
+}
+
+p{ 
+padding:8px; }
+
+@media (min-width:576px){
+	.banner{background-position: right;
+	}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+.header{
+	background-color: #b54c0054;
+	align-items:center;
+	max-height: 5vh;
+	padding: 8px 16px;
+	position: sticky;
+	top: 0;
+}
+
+.list-inline li{
+display:inline;
+color:white;
+}
+
+.list-inline{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+

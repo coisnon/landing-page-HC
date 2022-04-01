@@ -1,0 +1,23 @@
+.slide{
+height: 100vh;
+background-image: url("../images/jeep.jpg");
+background-size: cover;
+background-size: bottom;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.slide h1, .slide h2{
+	text-shadow: 1px 1px 1px black;
+}
+
+.container h3{
+	text-decoration: underline overline ;
+	text-decoration-color: orange;
+}
+
+
